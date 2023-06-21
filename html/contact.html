@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--bootstrap CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <title>Huiswerk les 21 en 22</title>
+    </head>
+    <body>
+        <header class="text-center">
+            <Nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>   
+            <li class="nav-item"><a class="nav-link" href="./overmij.html">Over mij</a></li>   
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Contact</a></li>
+            </ul>
+            </Nav>
+            <h1>welkom op mijn pagina</h1>
+        </header>
+           
+            <div class="container-sm">
+             <div class="row justify-content-center">   
+                <div class="col-6">
+                <form id="contactformulier" action="https://formspree.io/f/xgebgbvn" method="post">
+                    <div class="mb3">
+                    <label for="voornaam" class="form-label">Voornaam</label>
+                    <input type="text" class="form-control" name="voornaam" placeholder="Uw voornaam"> 
+                    </div>
+                    <div class="mb3">
+                    <label for="achternaam" class="form-label">Achternaam</label>
+                    <input type="text" class="form-control" name="achternaam" placeholder="Uw achternaam">
+                    <div class="mb3">
+                    <label for="email" class="form-label">E-mailadres</label>
+                    <input type="email" class="form-control" name="email" placeholder="Uw e-mailadres">
+                    </div>
+                    <div class="mb3">
+                    <label for="bericht" class="form-label">Stuur een bericht</label>
+                    <textarea name="bericht" class="form-control" placeholder="Uw bericht"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-danger" name="verzendknop">
+                        Verzend
+                    </button>
+                    </div>                               
+                </form>
+                </div>
+             </div>
+            </div>
+       
+        <!--bootstrap script-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <footer>
+            @copy 2023 Arend Burgers
+        </footer>
+    </body>
+</html>

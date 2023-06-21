@@ -1,0 +1,24 @@
+img{  
+   padding: 10px;
+}
+footer{
+    min-height: 200px;
+    background-color: lightseagreen;
+    clear: both;
+}
+header{
+    background-color: lightseagreen;
+    min-height: 150px;
+}
+body{
+    background-color: darkslategray;
+    color: white;
+}
+form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
